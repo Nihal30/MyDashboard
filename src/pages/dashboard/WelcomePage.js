@@ -5,6 +5,7 @@ import UserInteraction from "../../components/dashboard/UserInteraction";
 import HouseSection from "../../components/dashboard/HouseSection";
 import GameSection from "../../components/dashboard/GameSection";
 import ProjectsSections from "../../components/dashboard/ProjectsSections";
+import TechSection from "../../components/dashboard/TechSection";
 
 const WelcomePage = () => {
   return (
@@ -37,6 +38,7 @@ const WelcomePage = () => {
       <HouseSection />
       <GameSection />
       <ProjectsSections />
+      <TechSection />
     </div>
   );
 };
