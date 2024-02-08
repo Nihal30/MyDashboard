@@ -6,6 +6,8 @@ import {
   ListItemText,
   dividerClasses,
   Box,
+  Stack,
+  Typography,
 } from "@mui/material";
 import { Icon } from "@iconify/react";
 import React, { useState } from "react";
@@ -23,9 +25,25 @@ const SideBar = () => {
     <>
       {isSidebarOpen && (
         <Drawer anchor="right" open={isSidebarOpen}>
-          <IconButton onClick={istoggleSidebar}>
-            <Icon icon="mingcute:menu-line" fontSize={30} color="black" />
-          </IconButton>
+          <Box sx={{ bgcolor: "#334155", p: 1, width: 200 }}>
+            <Stack>
+              <Stack direction="row" sx={{display:"flex" ,justifyContent:"space-between"}}>
+                {" "}
+                <Typography sx={{color:"whitesmoke" ,fontSize:"22px"  ,mt:1,ml:2,fontWeight:"bold"}}>  Home</Typography>
+                <IconButton
+                  onClick={istoggleSidebar}
+                  sx={{ alignItems: "end" }}
+                >
+                  <Icon
+                    icon="lets-icons:close-square-duotone"
+                    fontSize={30}
+                    color="white"
+                  />
+                </IconButton>
+              </Stack>
+              
+            </Stack>
+          </Box>
         </Drawer>
       )}
     </>

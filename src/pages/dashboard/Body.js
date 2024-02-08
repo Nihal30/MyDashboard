@@ -1,11 +1,14 @@
-
 import React from "react";
-import SideBar from "../../components/sideBar/SideBar"
+import SideBar from "../../components/sideBar/SideBar";
+
+import WelcomePage from "./WelcomePage";
 
 const Body = () => {
   return (
-    <div className="flex">
+    <div>
       <SideBar />
+
+      <WelcomePage />
     </div>
   );
 };
