@@ -26,14 +26,14 @@ const WelcomePage = () => {
         </Card>
       </Box>
       <Box>
-        <Grid container>
-          <Grid item md={8} sm={6} xs={12}>
+        {/* <Grid container> */}
+          {/* <Grid item md={8} sm={6} xs={12}> */}
             <WeatherPage />
-          </Grid>
-          <Grid item md={4} sm={6} xs={12}>
+          {/* </Grid> */}
+          {/* <Grid item md={4} sm={6} xs={12}>
             <UserInteraction />
-          </Grid>
-        </Grid>
+          </Grid> */}
+        {/* </Grid> */}
       </Box>
       <HouseSection />
       <GameSection />

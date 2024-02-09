@@ -14,7 +14,8 @@
 - installed react slick for Sliding fn
 - create the Tech Section 
 - fix the bug of spacing between the slider
-- 
+- Working On Weather Feature
+
 
 
 
@@ -31,4 +32,6 @@
  - 3rd Section (House Game)
   - yet to decide
  - 4th Section (all project Sections)   
-  - all projects  
+  - all projects 
+ - 5th Section (Tech)
+  - Technology Used 
