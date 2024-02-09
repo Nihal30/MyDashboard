@@ -14,7 +14,7 @@ const HouseSection = () => {
         paddingBottom:2
       }}
     >
-      <Box sx={{ border: 2 }}>
+      <Box >
         <Typography sx={{ fontSize: "25px", fontWeight: "bold",color:"whitesmoke",p:2 }}>
           MODULE
         </Typography>

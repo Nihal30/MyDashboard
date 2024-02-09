@@ -9,6 +9,12 @@
 - created Slider 
 - Created Welcome Page
 - Created Sections For welcome page
+- Create common card using Mui
+- added bg for Module Section
+- installed react slick for Sliding fn
+- create the Tech Section 
+- fix the bug of spacing between the slider
+- 
 
 
 
